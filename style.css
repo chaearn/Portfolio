@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400');
+
+body {
+	font-family: "Montserrat";
+	font-size: 1em;
+	max-width: 100%;
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+p {
+	line-height: 50%;
+	font-size: 0.7em;
+	color: #a7a9ac;
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 2em;
+	line-height: 60%;
+	color: black;
+}
+
+h2{
+	font-size: 4em;
+	line-height: 1%;
+}
+
+ul li {
+	width: 20vw;
+	height: 80vh;
+	display: inline;
+	margin-bottom: 20px; 
+	margin-right: 70px;
+	margin-left: -2.5vw;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #c2b69c;
+}
+
+.header {
+	margin-right: 5vw;
+	padding-left: 1vw;
+	padding-top: 1vh;
+	display: block;
+	position: relative;
+    float: left;
+}
+
+#header-description{
+	margin-top: 32px;
+}
+
+#header-name {
+	margin-top: 480px;
+}
+
+#header-social {
+	margin-top: 60px;
+	font-size: 0.6em;
+}
+
+/*.wrap {
+	position: relative;
+	top: 110px;
+	bottom: 45px;
+	white-space: nowrap;
+	line-height: 0;
+	font-size: 0;
+	overflow-x: scroll;
+    overflow-y: hidden;
+}*/
+
+/*.projects-container {
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    position: relative;
+}*/
+
+#expand {
+	width: 16vw;
+	height:98vh;
+    display: none;
+    float: left;
+    border-left: 0.25px;
+    padding-left: 20px;
+    border-left: solid 1px #d5e2c7;
+    background: white;
+    position: relative;
+}
+
+.thumb {
+	width: 20vw;
+	height: 80vh;
+	display: inline;
+}
+
+/*span {
+	width: 10vw;
+	height:100vh;
+	transition: width 2s;
+    -webkit-transition: width 2s;
+}*/
+
+img {
+	height: 98vh;
+	margin-bottom: 4px;
+}
+
+span:hover + #expand {
+    display: block;
+}
