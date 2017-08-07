@@ -248,7 +248,7 @@ img {
 
 #item1:hover {
 	transform: translate(17vw);
-	padding-right: 17vw;
+	padding-right: 1vw;
 }
 
 /*span:hover + #expand {
