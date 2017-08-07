@@ -120,12 +120,16 @@ ul li a {
 }
 
 #header-name {
-	margin-top: 480px;
+	position: absolute;
+	/*margin-top: 480px;*/
+	bottom: 80px;
 }
 
 #header-social {
-	margin-top: 60px;
+	position: absolute;
+	/*margin-top: 60px;*/
 	font-size: 0.6em;
+	bottom: 25px;
 }
 
 /*.wrap {
@@ -163,7 +167,7 @@ ul li a {
 
 #project-name {
 	position: absolute;
-    top: 400px;
+    bottom: 240px;
 }
 
 #date {
